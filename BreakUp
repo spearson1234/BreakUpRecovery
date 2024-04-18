@@ -1,1 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Break Up Recovery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .banner {
+            background-color: rgba(0, 0, 0, 0.5); /* dark background with 50% opacity */
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        .button {
+            background-color: transparent; /* transparent background */
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        .button:hover {
+            background-color: rgba(255, 255, 255, 0.1); /* light background on hover */
+        }
+        .arrow-down {
+            margin-top: 10px;
+            font-size: 24px;
+            color: white;
+            display: none; /* Initially hidden */
+        }
+        .arrow-up {
+            animation: moveUp 0.5s forwards;
+        }
+        @keyframes moveUp {
+            0% { transform: translateY(0); }
+            100% { transform: translateY(-10px); }
+        }
+        .center-text {
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .info-title {
+            font-weight: bold;
+        }
+        .bullet-points {
+            text-align: left;
+            margin-left: 20px;
+        }
+        .bullet-points li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="banner">
+    <h1>Break Up Recovery</h1>
+    <button class="button" onclick="navigateTo('Story.html')">Story</button>
+    <button class="button" onclick="navigateTo('Update.html')">Updates</button>
+    <button class="button" onclick="navigateTo('Support.html')">Support</button>
+    <div class="arrow-down"></div>
+</div>
+
+<div class="center-text">
+    <h2 class="info-title">Understanding</h2>
+    <p>Breaking up is hard, and it's okay to feel a range of emotions, including sadness, anger, and confusion.</p>
+    <ul class="bullet-points">
+        <li>Allow yourself to feel your emotions without judgment.</li>
+        <li>Recognize that healing is a process and takes time.</li>
+        <li>Seeking closure doesn't mean forgetting or ignoring the past; it means making peace with it.</li>
+        <li>Accept that it's normal to have good days and bad days during the recovery process.</li>
+        <li>Remind yourself that your worth is not defined by your relationship status.</li>
+    </ul>
+    
+    <h2 class="info-title">Healing Process</h2>
+    <p>Healing takes time. Be patient with yourself and allow yourself to grieve the loss.</p>
+    <ul class="bullet-points">
+        <li>Focus on self-care activities such as exercise, meditation, or spending time in nature.</li>
+        <li>Journaling can help you process your thoughts and emotions.</li>
+        <li>Set small, achievable goals for yourself to stay motivated.</li>
+        <li>Surround yourself with supportive friends and family members.</li>
+        <li>Consider seeking professional therapy or counseling if needed.</li>
+    </ul>
+    
+    <h2 class="info-title">Self-Care</h2>
+    <p>Take care of yourself physically, emotionally, and mentally. Engage in activities that bring you joy and relaxation.</p>
+    <ul class="bullet-points">
+        <li>Make time for activities that nourish your soul, such as reading, painting, or listening to music.</li>
+        <li>Practice mindfulness and meditation to reduce stress and promote inner peace.</li>
+        <li>Get plenty of rest and prioritize sleep for overall well-being.</li>
+        <li>Stay hydrated and eat nutritious foods to fuel your body.</li>
+        <li>Set boundaries with yourself and others to protect your emotional health.</li>
+    </ul>
+    
+    <h2 class="info-title">Seeking Support</h2>
+    <p>It's important to reach out to friends, family, or a therapist for support during this difficult time.</p>
+    <ul class="bullet-points">
+        <li>Don't be afraid to ask for help when you need it.</li>
+        <li>Join a support group or online community for individuals going through similar experiences.</li>
+        <li>Share your feelings with trusted loved ones who can provide empathy and understanding.</li>
+        <li>Consider seeking professional help from a therapist or counselor who specializes in relationship issues.</li>
+        <li>Remember that seeking support is a sign of strength, not weakness.</li>
+    </ul>
+    
+    <h2 class="info-title">Finding Closure</h2>
+    <p>Find closure by reflecting on the relationship, learning from it, and focusing on your own growth and well-being.</p>
+    <ul class="bullet-points">
+        <li>Take time to reflect on the lessons you've learned from the relationship.</li>
+        <li>Forgive yourself and your ex-partner for any mistakes or shortcomings.</li>
+        <li>Focus on the present moment and the positive changes you can make in your life.</li>
+        <li>Practice gratitude for the lessons and experiences that have shaped you.</li>
+        <li>Embrace new opportunities for growth and self-discovery.</li>
+    </ul>
+</div>
+
+<script>
+    function navigateTo(page) {
+        window.location.href = page;
+    }
+</script>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maya's Journey</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        h2 {
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        
+        p {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Chapter 1: Understanding Your Emotions</h2>
+    <p>"It's over, Maya," Alex's voice echoed in her mind, each word a dagger to her heart.</p>
+    <p>As Maya grappled with the shock and pain of the breakup, she found solace in the pages of her journal. Each night, she poured her heart out, allowing the ink to capture the depth of her sorrow and the turmoil within her soul.</p>
+    <p>"I don't understand why this had to happen," Maya confided in Sarah, her voice trembling with emotion. "We had plans, dreams...everything."</p>
+    <p>Sarah wrapped her arms around Maya, offering silent support as tears streamed down her cheeks. "It's okay to feel lost right now," she whispered. "But remember, you're not alone. I'm here for you every step of the way."</p>
+    <p>In the quiet hours of the night, Maya's thoughts raced, her heart heavy with unanswered questions. She tossed and turned, grappling with a maelstrom of emotions that threatened to consume her. It was in those moments of darkness that Maya began to understand the true depth of her feelings and the journey that lay ahead.</p>
+
+    <h2>Chapter 2: Acceptance and Acknowledgment</h2>
+    <p>With each passing day, Maya learned to accept her feelings without judgment. She acknowledged the reality of the situation and allowed herself to mourn the loss of what once was.</p>
+    <p>"I don't understand why this had to happen," Maya confessed to her mother over a cup of tea. "But I know I have to face it."</p>
+    <p>Her mother reached across the table, gently squeezing Maya's hand. "Heartbreak is never easy, sweetheart," she said softly. "But it's through our darkest moments that we find the strength to rise again."</p>
+    <p>In the stillness of the night, Maya sat alone with her thoughts, her heart heavy with sorrow yet lightened by the promise of acceptance. She closed her eyes, allowing the weight of her emotions to wash over her, knowing that only through acceptance could she begin to heal.</p>
+
+    <h2>Chapter 3: Taking Action Towards Healing</h2>
+    <p>Determined to reclaim her sense of self, Maya took small but deliberate steps towards healing.</p>
+    <p>"I signed up for that painting class I've always wanted to try," Maya announced to her family over dinner. "It's time to rediscover who I am."</p>
+    <p>Her younger sister, Lily, beamed with excitement. "Can I come with you? I've always wanted to try painting too!"</p>
+    <p>With each stroke of the brush, Maya felt a sense of liberation wash over her. The vibrant colors danced across the canvas, mirroring the kaleidoscope of emotions that swirled within her soul. Through art, Maya found a sanctuary—a place where she could express herself freely, without fear or judgment.</p>
+
+    <h2>Chapter 4: Finding Support Systems</h2>
+    <p>Recognizing the importance of connection during times of hardship, Maya reached out to her loved ones for support.</p>
+    <p>"Thank you for being here for me," Maya whispered to Sarah, tears of gratitude shimmering in her eyes.</p>
+    <p>Sarah smiled, brushing a stray lock of hair from Maya's face. "That's what friends are for," she replied. "To lift each other up when we're feeling down."</p>
+    <p>In the embrace of her friends and family, Maya found solace—a beacon of light in the darkness that surrounded her. Their unwavering support bolstered her spirit, giving her the strength to face each new day with courage and determination.</p>
+
+    <h2>Chapter 5: Rediscovering Yourself</h2>
+    <p>As Maya journeyed deeper into the depths of self-discovery, she unearthed forgotten passions and hidden talents that lay dormant within her soul.</p>
+    <p>"I forgot how much I loved to sing," Maya exclaimed, her voice echoing through the empty halls of her apartment. "It feels good to be me again."</p>
+    <p>Her neighbor, Mr. Johnson, poked his head out of his apartment door, a grin spreading across his wrinkled face. "You've got quite the voice, Maya! Keep singing, and the whole town will be listening."</p>
+    <p>With each note that soared into the sky, Maya felt a sense of freedom wash over her—a liberation from the confines of her past and the promise of a brighter future. Through music, Maya found a voice—a melody of hope that echoed across the landscape of her heart.</p>
+
+    <h2>Chapter 6: Setting Boundaries</h2>
+    <p>Armed with newfound clarity and self-awareness, Maya learned to set healthy boundaries to protect her heart and honor her needs.</p>
+    <p>"No, I won't let you treat me like that anymore," Maya declared to her ex-partner, her voice firm and unwavering. "I deserve better."</p>
+    <p>Her ex-partner, Alex, looked taken aback by her newfound resolve. "I never realized how much I hurt you," he admitted, his voice tinged with regret. "I'm sorry, Maya. I hope you find the happiness you deserve."</p>
+    <p>With each boundary she set, Maya felt a renewed sense of empowerment—a strength that flowed from within, bolstered by the unwavering belief in her own worth. Through the gentle art of saying no, Maya reclaimed her power—a beacon of resilience in a world filled with uncertainty.</p>
+
+    <h2>Chapter 7: Embracing Change</h2>
+    <p>Embracing change as a catalyst for growth, Maya welcomed each new day with open arms and a hopeful heart.</p>
+    <p>"Today is a new beginning," Maya declared to the rising sun, her spirit ablaze with excitement.</p>
+    <p>Sarah grinned, linking her arm with Maya's as they strolled down the bustling streets of Willowvale. "And we're going to make the most of it," she added, her eyes sparkling with anticipation.</p>
+    <p>With each step forward, Maya embraced the changes that lay ahead, knowing that with change came the promise of growth—a journey of self-discovery that would lead her home to herself.</p>
+
+    <h2>Chapter 8: Forgiveness and Closure</h2>
+    <p>In the quiet corners of her heart, Maya embarked on a journey of forgiveness—a journey both tender and transformative.</p>
+    <p>"I forgive you," Maya whispered to her reflection in the mirror, the weight of resentment lifting from her shoulders. "And I forgive myself too."</p>
+    <p>Tears of relief filled Maya's eyes as she finally released the burden of the past, embracing the freedom that forgiveness brought. In the act of forgiveness, Maya found closure—a sense of peace that washed over her soul, cleansing her of the pain that had once consumed her.</p>
+
+    <h2>Chapter 9: Cultivating Resilience</h2>
+    <p>As Maya stood on the precipice of her own resilience, she marveled at the strength that had carried her through the storm.</p>
+    <p>"I am stronger than I ever thought possible," Maya declared to the world, her voice ringing with confidence.</p>
+    <p>With each setback she faced, Maya emerged stronger and more resilient than before. Through the trials and tribulations of life, Maya discovered the power of resilience—a strength that flowed from within, unyielding in the face of adversity.</p>
+
+    <h2>Chapter 10: Moving Forward with Confidence</h2>
+    <p>With a heart full of hope and a spirit ablaze with possibility, Maya stepped boldly into the unknown, ready to embrace the next chapter of her journey.</p>
+    <p>"Watch out world," Maya exclaimed, her eyes sparkling with determination. "Here I come!"</p>
+    <p>And so, with the gentle whisper of the wind and the promise of a new dawn, Maya embarked on a journey of self-discovery, resilience, and unwavering hope—a journey that would lead her home to herself.</p>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background: linear-gradient(to bottom right, #fff, #f2f2f2);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  label {
+    margin-bottom: 10px;
+    color: #333;
+  }
+
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    resize: none;
+    font-size: 16px;
+    color: #333;
+    transition: border-color 0.3s;
+  }
+
+  input[type="email"]:focus,
+  textarea:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+
+  button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+
+  button[type="submit"]:focus {
+    outline: none;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h1>Contact Us</h1>
+  <form action="https://formspree.io/f/mrgnrbdg" method="POST">
+    <label>
+      Your email:
+      <input type="email" name="email" required>
+    </label>
+    <label>
+      Your message:
+      <textarea name="message" rows="5" required></textarea>
+    </label>
+    <!-- your other form fields go here -->
+    <button type="submit">Send</button>
+  </form>
+</div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Warning Alert</title>
+<style>
+    body {
+        background-color: #f0f0f0; /* Background color */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        position: relative;
+    }
+    .alert {
+        padding: 20px;
+        color: black; /* Text color */
+        text-align: center;
+    }
+    .emoji {
+        font-size: 48px;
+        margin-right: 10px;
+    }
+    .message {
+        font-size: 24px;
+        font-weight: bold; /* Bold text */
+    }
+    .back-button {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        font-size: 24px;
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+
+<div class="back-button" onclick="goToHomePage()"></div>
+
+<div class="alert">
+    <span class="emoji">&#9888;</span>
+    <span class="message">No updates yet</span>
+</div>
+
+<script>
+    function goToHomePage() {
+        window.location.href = "Home.html";
+    }
+</script>
+
+</body>
+</html>
 
