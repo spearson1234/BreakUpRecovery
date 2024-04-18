@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Warning Alert</title>
+<style>
+    body {
+        background-color: #f0f0f0; /* Background color */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        position: relative;
+    }
+    .alert {
+        padding: 20px;
+        color: black; /* Text color */
+        text-align: center;
+    }
+    .emoji {
+        font-size: 48px;
+        margin-right: 10px;
+    }
+    .message {
+        font-size: 24px;
+        font-weight: bold; /* Bold text */
+    }
+    .back-button {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        font-size: 24px;
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+
+<div class="back-button" onclick="goToHomePage()"></div>
+
+<div class="alert">
+    <span class="emoji">&#9888;</span>
+    <span class="message">No updates yet</span>
+</div>
+
+<script>
+    function goToHomePage() {
+        window.location.href = "Home.html";
+    }
+</script>
+
+</body>
+</html>
